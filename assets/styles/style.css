@@ -1,0 +1,19 @@
+@import url(header.css);
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco:#ffffff;
+    --laranja:#FD8325;
+    --azul:#003052;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo)
+}

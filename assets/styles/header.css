@@ -1,0 +1,72 @@
+header{
+    display:flex;
+    padding:4px;
+    width: 100%;
+    border:1px solid red;
+    justify-content:space-between;
+    align-items:center;
+    background-color:var(--branco);
+    height: 70px;
+}
+
+#menu{
+    background-image: url(../img/Menu.png);
+    height:24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#logo_inicio{
+    margin-left: 10px;
+    display: flex;
+    position: relative;
+}
+
+
+#logo_final{
+    margin-right: 10px;
+}
+
+
+.lista_menu{
+    display:none;
+    position:absolute;
+    top:57px;
+    height:18rem;
+    width:15rem;
+    background-color:var(--branco);
+    left: -11px;
+}
+
+#label_menu:checked ~ .lista_menu{
+    display:block;
+}
+
+/* SÃO OS "LI" */
+.lista_menu_item{
+    display: flex;
+    height: 3rem;
+    align-items:center;
+    font-weight: 600;
+}
+.lista_menu_item:hover{
+    background-color:#ededed68;
+}
+
+
+/* SÃO OS "AS" */
+
+.item_lista{
+    text-decoration: none;
+    margin-left:4px;
+    color:#003052;
+    font-weight: 100;
+}
+
+.titulo{
+    color:var(--laranja);
+    text-decoration:none;
+    font-weight: 600;
+}
