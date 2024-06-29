@@ -2,7 +2,6 @@ header{
     display:flex;
     padding:4px;
     width: 100%;
-    border:1px solid red;
     justify-content:space-between;
     align-items:center;
     background-color:var(--branco);
@@ -44,6 +43,14 @@ header{
     display:block;
 }
 
+#label_menu:checked ~ #menu{
+    background-image: url(../img/Frame\ 20.png);
+}
+
+#label_menu{
+    display: none;
+}
+
 /* SÃO OS "LI" */
 .lista_menu_item{
     display: flex;
@@ -68,5 +75,5 @@ header{
 .titulo{
     color:var(--laranja);
     text-decoration:none;
-    font-weight: 600;
+    font-weight: 700;
 }

@@ -1,10 +1,12 @@
 @import url(header.css);
+@import url(section_one.css);
 
 :root{
     --cor-de-fundo: #EBECEE;
     --branco:#ffffff;
     --laranja:#FD8325;
     --azul:#003052;
+    --degrade-azul:
 }
 
 *{
