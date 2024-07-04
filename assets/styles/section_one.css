@@ -2,12 +2,12 @@
     background: linear-gradient(157deg, Var(--azul), #17486C);
     height: 14rem;
     color: var(--branco);
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction:column;
+    width: 100vw;
 }
 
 #primeira_section_primeiro_texto {
