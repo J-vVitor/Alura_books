@@ -1,6 +1,5 @@
-#saiba_mais{
-    /* background-color:var(--branco); */
-    background-color: darkgray;
+.saiba_mais{
+    background-color:var(--branco);
     border-radius:10px;
     display: flex;
     padding: 20px;
@@ -12,30 +11,30 @@
     width: 94vw;
 }
 
-#div_texto{
+.div_texto{
     padding:10px;
     display: flex;
     flex-direction: column;
     gap:6px;
 }
 
-#div_texto #letra_laranja{
+.div_texto .letra_laranja{
     color:var(--laranja);
     font-weight:bold;
     font-size:1rem;
     width: 160px;
 }
 
-#div_texto h3{
+.div_texto h3{
     color:var(--azul);
     font-size:1.2rem;
 }
 
-#div_img{
+.div_img{
     justify-self: center;
 }
 
-#div_img button{
+.div_img button{
     color:var(--branco);
     background-color:var(--laranja);
     width: 100%;
@@ -47,7 +46,7 @@
 }
 
 
-#saiba_mais img{
+.saiba_mais img{
     height: 140px;
     
 }
@@ -55,3 +54,17 @@
 .material-symbols-outlined{
     color: var(--azul);
 }
+
+#mais_vendidos{
+    background-color:var(--branco);
+    height:60px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.2rem;
+    font-weight:bold;
+    color:var(--laranja);
+}
+

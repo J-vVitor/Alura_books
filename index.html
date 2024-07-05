@@ -108,12 +108,14 @@
         </div>
 
 
+
+
         <!-- SEÇÃO DE SAIBA MAIS, "MENU FLUTUANTE" -->
 
-        <section id="saiba_mais">
+        <section class="saiba_mais">
 
-            <div id="div_texto">
-                <p id="letra_laranja">Talvez você também se interesse por...</p>
+            <div class="div_texto">
+                <p class="letra_laranja">Talvez você também se interesse por...</p>
                 <h3>Angular 11 e Firebase</h3>
                 <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
                 <div>
@@ -126,7 +128,7 @@
                 </div>
             </div>
 
-            <div  id="div_img">
+            <div class="div_img">
                 <img src="assets/img/Perfil-escritora 2.png" alt="">
                 <button>saiba mais</button>
             </div>
@@ -135,28 +137,97 @@
 
 
 
+        <!-- AVISO "MAIS VENDIDOS" -->
+
+        <section id="mais_vendidos">
+            <p>Mais vendidos</p>
+        </section>
+
+
+        <!-- SEGUNDA SEÇÃO DO CARROSEL -->
+
+        <section id="carrosel">
+            <!-- Slider main container -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            ]
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="assets/img/Guia Front-end.svg" alt="Livro guia Front-end"></div>
+                    <div class="swiper-slide"><img src="assets/img/Javascript.svg" alt="Livro javascript assertivo">
+                    </div>
+                    <div class="swiper-slide"><img src="assets/img/Liderança.svg" alt="Liderança em design"></div>
+                    <div class="swiper-slide"><img src="assets/img/MetricasAgeis.svg" alt="Livro Metrica agéis"></div>
+                    <div class="swiper-slide"><img src="assets/img/Portugol.svg" alt="Livro Portugol"></div>
+                    <div class="swiper-slide"><img src="assets/img/ApacheKafka.svg" alt="Livro ApacheKafka"></div>
+                    <div class="swiper-slide"><img src="assets/img/UX.svg" alt="Livro UX"></div>
+                    ...
+                </div>
+
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+
+
+
+            <!-- SEÇÃO DE AVALIAÇÃO -->
+
+            <section class="saiba_mais">
+                <div class="div_texto">
+                    <p class="letra_laranja">Autora do mês</p>
+                    <h3>Juliana Agarikov</h3>
+                    <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                        <span class="material-symbols-outlined">
+                            local_mall
+                        </span>
+                    </div>
+                </div>
+
+                    <div class="div_img">
+                        <img src="assets/img/Perfil-escritora 1.png" alt="">
+                        <button>saiba mais</button>
+                    </div>
+                </div>
+
+            </section>
 
 
 
 
 
-        <footer>
-
-        </footer>
-
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper', {
-                spaceBetween: 10,
-                slidesPerView: 3,
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                }
-            });
 
 
-        </script>
+
+            <footer>
+
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                    spaceBetween: 10,
+                    slidesPerView: 3,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                    }
+                });
+
+
+            </script>
 </body>
 
 </html>
