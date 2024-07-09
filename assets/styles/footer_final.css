@@ -1,0 +1,9 @@
+footer{
+    border-top:2px solid darkgrey;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer h3{
+    font-weight:100;
+}

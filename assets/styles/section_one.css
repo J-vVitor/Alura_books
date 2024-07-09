@@ -1,4 +1,4 @@
-#primeira_section {
+.primeira_section {
     background: linear-gradient(157deg, Var(--azul), #17486C);
     height: 14rem;
     color: var(--branco);
@@ -25,7 +25,7 @@
     text-indent: 10px;
 }
 
-#primeira_section input{
+.primeira_section input{
     width: 90% ;
     height:40px;
     border-radius:24px;
@@ -40,6 +40,6 @@
     font-size:0.9rem;
 }
 
-#primeira_section input::placeholder{
+.primeira_section input::placeholder{
     color: var(--branco);
 }

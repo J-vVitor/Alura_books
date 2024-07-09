@@ -1,0 +1,37 @@
+#contato{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#contato h3,p{
+    font-weight:100;
+    margin: 6px;
+}
+
+#contato p{
+    width: 70%;
+}
+
+#contato input{
+    width: 97% ;
+    height:40px;
+    border-radius:24px;
+    border:2px solid var(--azul);
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    text-align:center;
+    background-color: transparent;
+    background-position: 3em;
+    font-weight:100;
+    padding:20px;
+    margin-top:16px;
+    font-size:0.9rem;
+}
+
+#contato input::placeholder{
+    color:var(--azul);
+    margin-right: 60px;
+}

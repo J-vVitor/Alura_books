@@ -1,0 +1,31 @@
+.ultima_section{
+    background: linear-gradient(157deg, Var(--azul), #17486C);
+    height: 14rem;
+    color: var(--branco);
+    text-align: center;
+    width: 100vw;
+}
+
+#ultima_section_titulo{
+    text-transform: uppercase;
+    color:lightgray ;
+    font-weight: 100;
+    font-size: 12px;
+    padding:6px;
+}
+
+
+.ultima_section ul{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    justify-content: center;
+}
+
+.ultima_section li{
+    border:1px solid var(--laranja);
+    background-color:orange;
+    padding: 16px;
+    margin: 4px;
+    
+}

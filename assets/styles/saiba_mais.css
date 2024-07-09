@@ -6,13 +6,13 @@
     width: 94%;
     margin-left: 10px;
     margin-top: 20px;
-    gap: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 94vw;
+    margin-bottom: 16px;
 }
 
 .div_texto{
-    padding:10px;
+    padding:6px;
     display: flex;
     flex-direction: column;
     gap:6px;
