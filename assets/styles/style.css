@@ -11,16 +11,16 @@
     --branco:#ffffff;
     --laranja:#FD8325;
     --azul:#003052;
-    --degrade-azul:
+    --font-secundaria:'Josefin Sans';
 }
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: "Poppins", sans-serif;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: "Poppins", sans-serif;
 }

@@ -43,3 +43,32 @@
 .primeira_section input::placeholder{
     color: var(--branco);
 }
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+    #primeira_section_primeiro_texto{
+        font-size: 2em;
+        padding:0;
+    }
+
+    #primeira_section_segundo_texto{
+        font-size: 1em;
+        padding:0;
+    }
+
+    .primeira_section input{
+        width: 40%;
+        border: 1px solid var(--branco);
+        border-radius: 18px;
+        background-position: 6em;
+    }
+
+    .primeira_section input::placeholder{
+    text-align:right;
+    width: 80%;
+}
+    }
