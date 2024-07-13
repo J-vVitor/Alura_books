@@ -27,13 +27,23 @@
 
 @media screen and (min-width:1024px){
     #carrosel h2{
-        padding: 3rem 0 0.5rem 0;
+        padding:3rem 0 0.5rem 0;
         font-size:1.3rem;
     }
 
     .swiper{
-        border:1px solid red;
+        width: 70%;
+        height: 40%;
+        display: flex;
+        margin-top:2rem;
+    }
+
+    .swiper-slide img {
         width: 60%;
+    }
+
+    .swiper-scrollbar{
+        display:none;
     }
 
         

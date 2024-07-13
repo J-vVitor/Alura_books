@@ -69,3 +69,26 @@
     color:var(--laranja);
 }
 
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+    section.saiba_mais{
+        width:50%;
+        margin-left:20%;
+        padding: 30px;
+        }
+
+        .div_texto{
+            border:1px solid red;
+            width:50%
+        }
+
+        .saiba_mais p{
+            margin:0;
+        }
+    }
+
