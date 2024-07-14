@@ -1,26 +1,20 @@
-@import url(header.css);
-@import url(section_one.css);
-@import url(carrosel.css);
-@import url(saiba_mais.css);
-@import url(ultima_section.css);
-@import url(contato.css);
-@import url(footer_final.css);
+@import url("/assets/styles/header.css");
+@import url(/assets/styles/banner.css);
 
-:root{
-    --cor-de-fundo: #EBECEE;
-    --branco:#ffffff;
-    --laranja:#FD8325;
-    --azul:#003052;
-    --font-secundaria:'Josefin Sans';
-}
 
 *{
-    margin:0;
+    margin: 0;
     padding:0;
     box-sizing:border-box;
 }
 
+:root{
+    --background-geral: #C4C4C4;
+    --degrade-azul: #002f52;
+    --branco:#ffffff;
+    --laranja:#ED8B00;
+}
+
 body{
-    background-color: var(--cor-de-fundo);
-    font-family: "Poppins", sans-serif;
+    background-color:var(--background-geral);
 }

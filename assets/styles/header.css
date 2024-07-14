@@ -1,163 +1,62 @@
 header{
     display:flex;
-    padding:4px;
-    width: 100vw;
+    background-color:var(--branco);
     justify-content:space-between;
-    align-items:center;
-    background-color:var(--branco);
-    height: 70px;
 }
 
-h1{
-    display:none;
-}
-
-#menu{
-    background-image: url(../img/Menu.png);
-    height:24px;
+span#button_menu{
+    background-image: url(/assets/img/Menu.png);
     width: 24px;
+    height: 24px;
     display: inline-block;
-    margin-right: 10px;
-    margin-top: 10px;
 }
 
-#logo_inicio{
-    margin-left: 10px;
+.div_direita_header,.div_esquerda_header{
     display: flex;
-    position: relative;
+    margin: 8px;
+    align-items:center;
+    justify-content:center;
+    padding:4px;
 }
 
 
-#logo_final{
-    margin-right: 10px;
+.div_direita_header img{
+    margin-left:16px;
 }
 
-
-.lista_menu{
+header input{
     display:none;
-    position:absolute;
-    top:57px;
-    height:18rem;
-    width:15rem;
+}
+
+header ul{
+    padding:10px;
+    position: absolute;
+    top:73px;
+    left: 1px;
     background-color:var(--branco);
-    left: -11px;
+    width: 260px;
+    font-family: "Poppins", sans-serif;
 }
 
-#label_menu:checked ~ .lista_menu{
-    display:block;
+header ul li{
+    padding:10px;
+    color:var(--degrade-azul);
+    text-transform: uppercase;
+    margin: 8px;
+    list-style-type:none;
 }
 
-#label_menu:checked ~ #menu{
-    background-image: url(../img/Frame\ 20.png);
-}
-
-#label_menu{
+header ul{
     display: none;
 }
 
-/* SÃO OS "LI" */
-.lista_menu_item{
-    display: flex;
-    height: 3rem;
-    align-items:center;
-    font-weight: 600;
-}
-.lista_menu_item:hover{
-    background-color:#ededed68;
+#check_button_header:checked ~ ul{
+    display: block;
 }
 
 
-/* SÃO OS "AS" */
-
-.item_lista{
-    text-decoration: none;
-    margin-left:4px;
-    color:#003052;
-    font-weight: 100;
-}
-
-.titulo{
+#texto_laranja_header{
     color:var(--laranja);
-    text-decoration:none;
-    font-weight: 700;
-}
-
-.menu_de_opcoes{
-    display:none;
-
 }
 
 
-@media screen and (min-width:1024px){
-
-    #logo_inicio{
-        margin-left: 10%;
-    }
-
-    #logo_final{
-        display: flex;
-    }
-
-    h1{
-        display:block;
-        font-family: 'Josefin Sans';
-        font-weight: 400;
-        display: flex;
-        align-items:center;
-        font-size:30px;
-        margin-top:10px;
-        margin-left:6px;
-    }
-
-    #favorito_icon{
-        display:none;
-    }
-
-    #menu{
-        display:none;
-    }
-
-    .menu_de_opcoes{
-        display:flex;
-        list-style-type:none;
-        align-items:center;
-        justify-content: right;
-    }
-
-    .menu_de_opcoes li{
-        padding: 0 2em;
-    }
-
-
-    #opcoes:checked ~ .lista_menu{
-        display: block;
-    }
-
-    #opcoes{
-        display:none;
-    }
-
-    .lista_menu{
-        left:39%;
-        width: 10rem;
-        height: 27%;
-    }
-
-
-    .lista_menu_item{
-        height: 2rem;
-        font-size: 0.8rem;       
-    }
-
-    .lista_menu_item:hover{
-        background-color: var(--azul);
-        color: var(--branco);
-    }
-
-    .item_lista:hover{
-        color: var(--branco);
-    }
-
-
-
-}
