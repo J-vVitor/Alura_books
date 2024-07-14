@@ -7,7 +7,6 @@
 }
 
 #contato h3,p{
-    font-weight:100;
     margin: 6px;
 }
 
@@ -34,4 +33,45 @@
 #contato input::placeholder{
     color:var(--azul);
     margin-right: 60px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1024px){
+    #contato{
+        display: flex;
+        flex-direction:row;
+    }
+
+    #contato input{
+        width: 30%;
+        border:1px solid var(--azul);
+        background-position: 2em;
+    }
+
+    #contato h3{
+        color:var(--azul);
+        width: 70%;
+    }
+
+    #contato p{
+        color:var(--azul);
+        font-size:0.9rem;
+    }
+
+    #contato div{
+        width: 30%;
+    }
+
+    #contato input::placeholder{
+        color:var(--azul);
+        font-weight: 100;
+        font-size:0.8rem;
+    }
+
+
 }
