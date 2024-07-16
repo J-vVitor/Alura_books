@@ -1,5 +1,6 @@
 @import url("/assets/styles/header.css");
 @import url(/assets/styles/banner.css);
+@import url(carrosel.css);
 
 
 *{
@@ -9,10 +10,11 @@
 }
 
 :root{
-    --background-geral: #C4C4C4;
+    --background-geral: #ececec;
     --degrade-azul: #002f52;
     --branco:#ffffff;
     --laranja:#ED8B00;
+    --font:"Poppins", sans-serif;
 }
 
 body{

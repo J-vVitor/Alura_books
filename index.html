@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <link rel="shortcut icon" href="assets/img/Logo (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
 </head>
 
 <body>
-
+    <!-- HEADER -->
     <header>
 
         <div class="div_direita_header">
@@ -64,7 +65,7 @@
 
     </header>
 
-
+    <!-- SEÇÃO DO BANNER -->
     <section class="banner_inicial">
         <h2 class="primeiro_texto_banner">Já sabe por onde começar?</h2>
         <p class="segundo_texto_banner">Encontre em nossa estante o que precisapara o seu desenvolvimento!</p>
@@ -72,6 +73,65 @@
         <input type="search" placeholder="Qual será sua próxima leitura">
     </section>
 
+    <!-- SEÇÃO DE ÚLTIMOS LANÇAMENTOS -->
+    <section class="carrosel">
+        <h3 class="carrosel_titulo">últimos lançamentos</h3>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/img/ApacheKafka.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/Javascript.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/Guia Front-end.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/MetricasAgeis.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/UX.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/Nodejs.svg" alt=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+        <div class="saiba_mais">
+            <div class="textos_es">
+                <p class="font_laranja">Talvez você também se interesse por...</p>
+                <h3>Angular 11 e Firebase</h3>
+                <p class="font_menor">Construindo uma aplicação integrada com a plataforma do Google.</p>
+
+                <!-- icons -->
+                <div class="icons">
+                    <img src="assets/img/Favoritos.png" alt="Simbolo para curtir">
+                    <img src="assets/img/Compras.png" alt="Sacola de compras">
+                </div>
+            </div>
+
+            <div class="imagem_ld">
+                <img src="assets/img/Perfil-escritora 2.png" alt="">
+                <button>Saiba mais</button>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- FUNÇÃO PARA O CARROSEL FUNCIONAR -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,
+        });
+    </script>
 </body>
 
 </html>
