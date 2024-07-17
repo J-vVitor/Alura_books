@@ -18,9 +18,9 @@
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header class="cabecalho">
 
-        <div class="div_direita_header">
+        <div class="div_esquerda_header">
             <!-- LADO ESQUERDO -->
 
 
@@ -55,7 +55,7 @@
         </div>
 
         <!-- LADO DIREITO -->
-        <div class="div_esquerda_header">
+        <div class="div_direita_header">
             <img src="assets/img/Favoritos.png" alt="Favoritos">
 
             <img src="assets/img/Compras.png" alt="Sacola de compras">
@@ -122,6 +122,86 @@
 
     </section>
 
+    <!-- SEGUNDA SEÇÃO DO CARROSEL -->
+
+    <section class="carrosel" id="carrosel_dois">
+        <h3 class="carrosel_titulo">mais vendidos</h3>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/img/Angular.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/Gestão2 (1).png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/Arquitetura.png" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/MetricasAgeis.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/Javascript.svg" alt=""></div>
+                <div class="swiper-slide"><img src="assets/img/Nodejs.svg" alt=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+        <div class="saiba_mais" >
+            <div class="textos_es" >
+                <img src="assets/img/Estrelinhas.png" alt="" id="estrelinhas">
+                <p class="font_laranja" >Autora do mês</p>
+                <h3>Juliana Agarikov</h3>
+                <p class="font_menor">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+
+                <!-- icons -->
+                <div class="icons" >
+                    <img src="assets/img/Favoritos.png" alt="Simbolo para curtir">
+                    <img src="assets/img/Compras.png" alt="Sacola de compras">
+                </div>
+            </div>
+
+            <div class="imagem_ld" >
+                <img src="assets/img/Perfil-escritora 1.png" alt="">
+                <button>Saiba mais</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SEÇÃO DE TÓPICOS -->
+
+    <section class="topicos">
+        <h3>TÓPICOS VISITADOS RECENTEMENTE</h3>
+        <ul>
+            <li>Android</li>
+            <li>Marketing Digital</li>
+            <li>Agile</li>
+            <li>Startups</li>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+            <li>oo</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+
+    <section class="cadastro">
+        <h3>Fique por dentro das novidades!</h3>
+        <p>Atualizaçõe de e-books,novos livros,promoções e outros.</p>
+        <input type="search" placeholder="Cadastre seu e-mail">
+    </section>
+
+
+    <fieldset></fieldset>
+
+    <footer><p>Grupo Alura - By João Vitor</p></footer>
+
 
 
     <!-- FUNÇÃO PARA O CARROSEL FUNCIONAR -->
@@ -129,7 +209,7 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
-            slidesPerView: 2,
+            slidesPerView: 3,
         });
     </script>
 </body>

@@ -1,0 +1,38 @@
+.cadastro{
+    font-family:var(--font);
+    padding:16px;
+    color:var(--degrade-azul);
+    display:flex;
+    flex-direction: column;
+}
+
+.cadastro h3,p{
+    margin:6px;
+}
+
+.cadastro input{
+    border-radius:24px;
+    border:2px solid var(--degrade-azul);
+    width: 99%;
+    padding:10px;
+    background-image: url(/assets/img/Email.svg);
+    background-repeat:no-repeat;
+    background-position: 1.8em 0.3em;
+    margin-top:4px;
+}
+
+.cadastro input::placeholder{
+    color: var(--degrade-azul);
+    width: 80%;
+    text-align:center;
+    font-size:16px;
+}
+
+
+/* FOOTER */
+
+footer{
+    font-family:var(--font);
+    padding:10px;
+    font-size:18px;
+}

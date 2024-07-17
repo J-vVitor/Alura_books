@@ -10,6 +10,7 @@
 
 .swiper img{
     width: 100%;
+    margin-top:15%;
 }
 
 .swiper-button-prev,.swiper-button-next{
@@ -30,9 +31,10 @@
     padding:10px;
     background-color:var(--branco);
     font-family: var(--font);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
 }
 
-/* LADO DIREITO */
+/* LADO ESQUERDO */
 
 .font_laranja{
     font-size:16px;
@@ -43,6 +45,7 @@
 .saiba_mais h3{
     color:var(--degrade-azul);
     font-size: 18px;
+    margin-left: 4px;
 }
 
 .font_menor{
@@ -59,7 +62,7 @@
 }
 
 
-/* LADO ESQUERDO */
+/* LADO DIREITO */
 
 .imagem_ld img{
     width:9em

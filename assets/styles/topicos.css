@@ -1,0 +1,29 @@
+.topicos{
+    background-color:var(--degrade-azul);
+    margin-top:40px;
+    font-family: var(--font);
+}
+
+.topicos h3{
+    font-size:16px;
+    text-align:center;
+    color:var(--branco);
+    font-weight: 100;
+    padding:20px;
+}
+
+.topicos ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.topicos ul li{
+    background-color:var(--laranja);
+    margin: 4px;
+    padding:10px;
+    color:var(--branco);
+    font-weight:600;
+}
