@@ -36,3 +36,64 @@ footer{
     padding:10px;
     font-size:18px;
 }
+
+
+
+/* VERSÃO PARA TABLET */
+
+
+@media screen and (min-width:1024px){
+    .cadastro{
+        flex-direction:row;
+        padding: 40px;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+    .cadastro input{
+        width: 40%;
+    }
+
+    .div_cadastro{
+        width: 34%;
+    }
+
+    .cadastro input{
+        height: 10%;
+    }
+
+    .cadastro h3{
+        font-size:1.4rem;
+    }
+
+
+    /* footer */
+
+    footer{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    #gp_alura{
+        font-size:1.2rem;
+    }
+
+    footer ul p{
+        color:darkgray;
+    }
+
+    footer ul li img{
+        margin: 4px;
+    }
+
+    footer ul li{
+        list-style-type: none;
+        display:flex;
+        align-items:center;
+        padding:6px;
+        margin: 6px;
+        color: darkgray;
+    }
+
+    
+}

@@ -33,3 +33,33 @@
     font-weight: 500;
     margin: 1em 0; 
 }
+
+
+
+
+/* VERSÃO PARA TABLET */
+
+@media screen and (min-width:1024px){
+
+    .banner_inicial{
+        padding:60px;
+    }
+
+    .primeiro_texto_banner{
+        font-size:2.1rem;
+    }
+
+    .banner_inicial input{
+        width:47%;
+        padding:23px;
+        background-position:7em
+    }
+
+    .segundo_texto_banner{
+        margin: 0.9em 0.5em;
+    }
+
+    .banner_inicial input::placeholder{
+        width: 100%;
+    }
+}

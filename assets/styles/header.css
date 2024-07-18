@@ -4,6 +4,10 @@
     justify-content:space-between;
 }
 
+.cabecalho p{
+    display: none;
+}
+
 span#button_menu{
     background-image: url(/assets/img/Menu.png);
     width: 24px;
@@ -28,8 +32,8 @@ header input{
     display:none;
 }
 
-header ul{
-    padding:10px;
+header .menu_de_opcoes{
+    padding:10px;   
     position: absolute;
     top:73px;
     left: 1px;
@@ -46,7 +50,7 @@ header ul li{
     list-style-type:none;
 }
 
-header ul{
+header .menu_de_opcoes{
     display: none;
 }
 
@@ -57,6 +61,59 @@ header ul{
 
 #texto_laranja_header{
     color:var(--laranja);
+}
+
+
+
+/* MODELO PARA TABLET */
+
+@media screen and (min-width:1024px) {
+
+    .cabecalho{
+        font-family:var(--font);
+        justify-content: space-around;
+    }
+
+    #coracao{
+        display:none;
+    }
+
+    span#button_menu{
+        display:none;
+    }
+
+    .cabecalho p{
+        display: block;
+        font-size:2rem;
+    }
+
+
+    #menu{
+        display:flex;
+        align-items:center;
+    }
+
+    #menu li{
+        color:black;
+    }
+
+    header .menu_de_opcoes{
+        left: 34%;
+        width: 18%;
+
+    }
+
+    header .menu_de_opcoes li{
+        padding:8px;
+        color:var(--degrade-azul);
+        text-transform: uppercase;
+        gap: 4px;
+        list-style-type:none;
+    }
+
+    #texto_laranja_header{
+        display:none;
+    }
 }
 
 

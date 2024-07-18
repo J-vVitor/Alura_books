@@ -27,3 +27,31 @@
     color:var(--branco);
     font-weight:600;
 }
+
+
+
+/* VERSÃO PARA TABLET */
+
+@media screen and (min-width:1024px){
+    .topicos{
+        padding: 40px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .topicos h3{
+        font-size:1.2rem;
+    }
+
+    .topicos ul{
+        width: 80%;
+    }
+
+    .topicos ul li{
+        padding: 30px;
+        font-size:1.2rem;
+        font-weight: 600;
+        margin:10px;
+    }
+}

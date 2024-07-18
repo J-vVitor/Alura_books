@@ -77,3 +77,41 @@
     color:var(--branco);
     font-weight:700;
 }
+
+
+
+
+/* VERSÃO PARA TABLET */
+
+@media screen and (min-width:1024px){
+
+    .caixa_carrosel{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        margin:30px 0px 20px 0px;
+    }
+
+    .carrosel_titulo{
+        padding:60px 10px 10px 10px;
+        font-size:1.4rem;
+    }
+
+    .swiper{
+        width: 70%;
+    }
+
+    .swiper img{
+        width: 80%;
+    }
+
+
+    /* SEÇÃO DE SAIBA MAIS */
+
+.saiba_mais{
+    width: 50%;
+    justify-content: center;
+}
+
+
+}
