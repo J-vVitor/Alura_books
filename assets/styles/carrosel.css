@@ -113,5 +113,41 @@
     justify-content: center;
 }
 
+}
+
+
+/* VERSÃO PARA DESKTOP */
+
+@media screen and (min-width:1536px){
+    .caixa_carrosel{
+        display:flex;
+        flex-direction:row;
+        padding: 20px;
+        align-items: center;
+        justify-content:center;
+        align-items: center;
+        margin: 20px 100px;
+    }
+
+    .saiba_mais{
+        height:230px;
+        margin-top:40px;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper img{
+        width:70%;
+
+    }
+    .swiper-scrollbar{
+        display:none;
+    }
+
+    .font_laranja{
+        font-size:2rem;
+    }
 
 }

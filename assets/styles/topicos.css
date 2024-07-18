@@ -55,3 +55,16 @@
         margin:10px;
     }
 }
+
+
+/* VERSÃO PARA DESKTOP */
+
+@media screen and (min-width:1536px){
+    .topicos ul{
+        width:51%;
+    }
+    
+    .topicos ul li{
+        padding: 20px;
+    }
+}

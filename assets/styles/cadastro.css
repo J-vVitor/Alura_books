@@ -37,6 +37,10 @@ footer{
     font-size:18px;
 }
 
+footer ul{
+    display:none;
+}
+
 
 
 /* VERSÃO PARA TABLET */
@@ -71,7 +75,7 @@ footer{
 
     footer{
         display:flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     #gp_alura{
@@ -96,4 +100,17 @@ footer{
     }
 
     
+}
+
+/* VERSÃO PARA DESKTOP */
+
+@media screen and (min-width:1526px){
+
+    .cadastro{
+        justify-content:space-evenly;
+    }
+    .cadastro input{
+        width: 30%;
+    }
+
 }

@@ -63,3 +63,14 @@
         width: 100%;
     }
 }
+
+
+/* VERSÃO PARA DESKTOP */
+
+@media screen and (min-width:1536px){
+    .banner_inicial input{
+        width:34%;
+        background-position:7.6rem;
+    }
+
+}

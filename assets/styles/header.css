@@ -8,6 +8,14 @@
     display: none;
 }
 
+#todo_conteudo_le{
+    display:flex;
+}
+
+ul#menu{
+    display: none;
+}
+
 span#button_menu{
     background-image: url(/assets/img/Menu.png);
     width: 24px;
@@ -84,8 +92,12 @@ header .menu_de_opcoes{
 
     .cabecalho p{
         display: block;
+    }
+
+    .div_esquerda_header p{
         font-size:2rem;
     }
+
 
 
     #menu{
@@ -115,5 +127,34 @@ header .menu_de_opcoes{
         display:none;
     }
 }
+
+
+/* VERÃO PARA COMPUTADOR*/
+
+@media screen and (min-width:1536px){
+    .cabecalho{
+        font-family:var(--font);
+    }
+
+    
+
+    .div_direita_header p{
+        font-size:20px;
+    }
+
+    #todo_conteudo_le{  
+        display:flex;
+    }
+
+    header .menu_de_opcoes {
+        left: 15%;
+        width: 10%;
+    }
+
+    header .menu_de_opcoes li{
+        font-size: 14px;
+    }
+}
+
 
 
